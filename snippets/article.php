@@ -48,7 +48,7 @@ $flickrCacheFilename = md5($content);
 
         ?>
 
-        <?php if (!is_home()) { ?>
+        <?php if (!is_home()  &&!is_category()) { ?>
         <div class="content-author clearfix">
                 <h3>About The Author</h3>
                 <?php echo get_avatar(get_the_author_meta('user_email'), 64); ?>
