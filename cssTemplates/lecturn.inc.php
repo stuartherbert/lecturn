@@ -502,7 +502,7 @@ div.entry + div.entry {
 #content-sidebar {
 	width: 270px;
 	margin-left: 0px;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 30px;
 	padding-left: 10px;
 	background-color: <?= LECTURN_CONTENT_BG ?>;
