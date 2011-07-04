@@ -521,6 +521,8 @@ div.entry + div.entry {
         padding: 5px;
         padding-left: 10px;
         margin-left: -10px;
+        border-top: 1px solid <?= LECTURN_BANNER_BOTTOM ?>;
+        border-right: 1px solid <?= LECTURN_BANNER_BOTTOM ?>;
         border-bottom: 1px solid <?= LECTURN_SPOTLIGHT_BOTTOM ?>;
 }
 

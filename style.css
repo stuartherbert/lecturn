@@ -306,8 +306,6 @@ body {
 	width: 100%;
 	float: left;
         margin: auto;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
 }
 
 #nav-title {
@@ -467,7 +465,7 @@ div.entry + div.entry {
 #content-sidebar {
 	width: 270px;
 	margin-left: 0px;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 30px;
 	padding-left: 10px;
 	background-color: #ffffff;
@@ -486,6 +484,8 @@ div.entry + div.entry {
         padding: 5px;
         padding-left: 10px;
         margin-left: -10px;
+        border-top: 1px solid #a4a18e;
+        border-right: 1px solid #a4a18e;
         border-bottom: 1px solid #a4a183;
 }
 
