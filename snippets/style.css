@@ -1,0 +1,668 @@
+/*
+ * Theme Name: Newsprint
+ * Theme URI : http://blog.stuartherbert.com/php/newsprint
+ * Description: A clean Wordpress theme inspired by the BBC News website
+ * Author: Stuart Herbert
+ * Author URI: http://blog.stuartherbert.com/
+ * Version: 0.1
+ *
+ * All rights reserved.
+ */
+
+/****
+ * All font and colour detail will eventually be defined in the header
+ ****/
+
+body {
+	font-size: 10pt;
+	font-family: verdana, sans-serif;
+	background-color: #000;
+	color: #000;
+}
+
+#properties-wrap {
+	background-color: #cccccc;
+	color: #000;
+	margin-top: 0px;
+	width: 100%;
+	float: left;
+	border-bottom: 5px solid #999999;
+}
+
+#properties {
+	width: 860px;
+	margin: auto;
+	background-color: #cccccc;
+}
+
+#properties #list {
+	width: 610px;
+	float: left;
+	height: 2em;
+}
+
+#properties a, #properties a:visited, #properties a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+#properties a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+#properties #list ul {
+	text-align: left;
+	font-size: 10pt;
+	padding-left: 0pt;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#properties #list ul li {
+	padding-right: 10px;
+	font-size: 10pt;
+}
+
+#properties #search {
+	width: 250px;
+	float: left;
+	height: 2em;
+	vertical-align: top;
+	text-align: center;
+	background-color: #999999;
+}
+
+#banner-wrap {
+	background-color: #000;
+	color: #fff;
+	margin-top: 0px;
+	width: 100%;
+	float: left;
+}
+
+#banner {
+	width: 860px;
+	margin: auto;
+	background-color: #000;
+}
+
+#banner #logo {
+	width: 450px;
+	float: left;
+}
+
+#banner #logo a, #banner #logo a:visited, #banner #logo a:active, #banner #logo a:hover {
+	color: #d4d1ae;
+	text-decoration: none;
+}
+
+#banner h1 {
+	font-size: 24pt;
+	font-weight: bold;
+	color: #d4d1ae;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 15px;
+}
+
+#banner p {
+	font-size: 12pt;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+#pages-wrap {
+	background-color: #000000;
+	width: 100%;
+	float: left;
+	border-bottom: 5px solid #a4a18e;
+}
+
+#pages {
+	width: 860px;
+	margin: auto;
+	background-color: #444444;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-top: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+
+#pages a, #pages a:visited, #pages a:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#pages a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+#pages ul {
+	text-align: left;
+	font-size: 10pt;
+	padding-left: 0pt;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#pages ul li {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 10pt;
+	text-color: #fff;
+}
+
+#spotlight-wrap {
+	background-color: #d4d1ae;
+	color: #000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	float: left;
+	border-bottom: 5px solid #a4a18e;
+}
+
+#spotlight {
+	width: 860px;
+	margin: auto;
+	font-size: 12pt;
+}
+
+#spotlight h2 {
+	font-size: 18pt;
+	font-weight: normal;
+}
+
+#spotlight img {
+	border: 0px;
+}
+
+#spotlight img.alignleft {
+	float: left;
+	border: 0px;
+	padding-right: 10px;
+	display: inline;
+}
+
+#spotlight img.alignright {
+	float: right;
+	border: 0px;
+	padding-left: 10px;
+	display: inline;
+}
+
+#spotlight div.alignleft {
+	float: left;
+	padding-right: 20px;
+}
+
+#spotlight div.alignright {
+	float: right;
+	padding-left: 20px;
+}
+
+#proposition-wrap {
+	background-color: #ffffff;
+	color: #000;
+	margin-top: 0px;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	float: left;
+	border-bottom: 5px solid #f4f1fe;
+}
+
+#proposition {
+	width: 860px;
+	margin: auto;
+}
+
+#proposition-left {
+	width: 420px;
+	padding-right: 10px;
+	float: left;
+}
+
+#proposition-right {
+	width: 420px;
+	padding-left: 10px;
+	float: right;
+}
+
+#proposition #header {
+	width: 860px;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 10px;
+}
+
+#proposition a, #proposition a:visited, #proposition a:active {
+	color: #996633;
+	text-decoration: none;
+}
+
+#proposition a:hover {
+	color-old: #993300;
+	color: #820002;
+	text-decoration: underline;
+}
+
+#proposition h2 {
+	padding-left: 0px;
+	font-size: 14pt;
+	font-weight: normal;
+	font-color: #3333333;
+}
+
+#proposition .postMetadata {
+	padding-bottom: 6px;
+	border-bottom: 1px dotted #333333;
+}
+
+
+#proposition .postCommentsLink {
+}
+
+#proposition .postDate {
+	width: 50px;
+	float: left;
+}
+
+#proposition .postDate .postDay {
+	color:#a4a18e;
+	display:block;
+	font-size:21pt;
+	font-weight:bold;
+	letter-spacing:-1px;
+	line-height:18pt;
+}
+
+#proposition .postDate .postMonth {
+    	color: #a4a18e;
+	display: block;
+	font-size: 12pt;
+	line-height: 18pt;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#features-wrap {
+	background-color: #d4d1ae;
+	color: #000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	float: left;
+	border-bottom: 5px solid #a4a18e;
+}
+
+#features {
+	width: 860px;
+	margin: auto;
+}
+
+div.feature {
+	display: block;
+	float: left;
+	width: 205px;
+	padding-right: 10px;
+	border-top: 1px solid #000;
+}
+
+#features h2 {
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+#features ul {
+	padding-left: 20px;
+}
+
+#features ul li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#features a, #features a:visited, #features a:active {
+	color: #4c1b1b;
+	text-decoration: none;
+}
+
+#features a:hover {
+	color: #b9121b;
+	text-decoration: underline;
+}
+
+#features #wp-calendar {
+	width: 100%;
+}
+
+#footer-wrap {
+	background-color: #000;
+	color: #fff;
+	margin-top: 0px;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float: left;
+}
+
+#footer {
+	width: 860px;
+	margin: auto;
+}
+
+#footer #attribution {
+	width: 300px;
+	float: left;
+	margin-top: 0px;
+}
+
+#footer #attribution p {
+	margin: 0px;
+}
+
+#footer ul {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	text-align: right;
+	font-size: 10pt;
+}
+
+#footer ul li {
+	padding-right: 10px;
+	font-size: 10pt;
+	display: inline;
+}
+
+#footer a, #footer a:visited, #footer a:active {
+	color: #d4d1ae;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #d4d1ae;
+	text-decoration: underline;
+}
+
+/****
+ * CSS for tags, regardless of container
+ ****/
+
+.alignleft {
+	text-align: left;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+.alignright {
+	text-align: right;
+}
+
+img.photo {
+	display: block;
+	margin: auto;
+	border: 10px solid #000000;
+}
+
+ul li.icon {
+	background-position: 0px 1px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+ul.hoz {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+ul.hoz li {
+	display: inline;
+}
+
+/* homepage-specific rules */
+
+#banner ul {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	text-align: right;
+	font-size: 14pt;
+	vertical-align: middle;
+}
+
+#banner ul li {
+	padding-right: 10px;
+	font-size: 14pt;
+	display: inline;
+}
+
+#banner img {
+	border: 0px;
+}
+
+#banner ul li a, #banner ul li a:visited, #banner ul li a:active {
+	color: #d4d1ae;
+	text-decoration: none;
+}
+
+#banner ul li a:hover {
+	color: #d4d1ae;
+	text-decoration: underline;
+}
+
+#banner ul li .rss {
+	vertical-align: text-bottom;
+}
+
+
+/* two-column page rules */
+
+#main-wrapper {
+	background-color: #ffffff;
+	color: #000;
+	width: 100%;
+	float: left;
+	border-bottom: 5px solid #a4a18e;
+}
+
+#main {
+	width: 860px;
+	margin: auto;
+}
+
+#main-header-wrapper {
+	width: 860px;
+}
+
+#main-header-title {
+	width: 650px;
+	background-color: #d4d1ae;
+	padding-left: 10px;
+	float: left;
+	border-right: 200px solid #a4a18e;
+	margin-right: -200px;
+}
+
+#main-header-title li + li:before {
+	content: " | ";
+}
+
+#main-header-date {
+	width: 175px;
+	padding-left: 15px;
+	padding-right: 10px;
+	float: left;
+	background-color: #a4a18e;
+}
+
+#content {
+	display: block;
+	width: 650px;
+	padding-right: 10px;
+	float: left;
+	background-color: #fff;
+	padding-top: 10px;
+	border-right: 200px solid #d4d1ae;
+	margin-right: -200px;
+}
+
+#content-header {
+	display: block;
+	width: 650px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000000;
+}
+
+#content-header ul {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#content-header ul li {
+	font-size: 10pt;
+	display: inline;
+	padding-right: 10px;
+}
+
+.icon.postAuthor {
+	background-image: url(user.png);
+}
+
+.icon.postDateTime {
+	background-image: url(date.png);
+}
+
+.icon.postCategories {
+	background-image: url(folder.png);
+}
+
+.icon.postComments {
+	background-image: url(comments.png);
+}
+
+#content h2 {
+	font-size: 20pt;
+	padding-bottom: 6px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#content h3 {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#content li + li {
+	margin-top: 0.5em;
+}
+
+#content-sidebar {
+	width: 175px;
+	padding-left: 15px;
+	padding-right: 10px;
+	float: left;
+	background-color: #d4d1ae;
+	padding-top: 5px;
+}
+
+#content-sidebar h2 {
+	font-size: 12pt;
+}
+
+#content-sidebar ul {
+	padding-left: 20px;
+}
+
+#content-sidebar #content-metadata {
+	padding-bottom: 10px;
+	border-bottom: 5px solid #a4a18e;
+}
+
+#content-sidebar #content-metadata ul {
+	padding-left: 0px;
+}
+
+#content-sidebar #content-metadata ul li {
+	padding-bottom: 2px;
+}
+
+#content-sidebar #content-metadata ul li.icon {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+#content-sidebar #content-metadata .postDate {
+	text-align: center;
+}
+
+#content-sidebar #content-metadata .postDate .postDay {
+	color:#000000;
+	display:block;
+	font-size:42pt;
+	font-weight:bold;
+	letter-spacing:-1px;
+	line-height:26pt;
+}
+
+#content-sidebar #content-metadata .postDate .postMonth {
+    	color: #000000;
+	display: block;
+	font-size: 24pt;
+	line-height: 26pt;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#content-sidebar #content-metadata .postDate .postYear {
+	color: #000000;
+	display: block;
+	font-size: 24pt;
+	line-height: 22pt;
+	font-weight: normal;
+}
+
+#content-sidebar #content-metadata p.postAuthor {
+	font-weight: bold;
+}
+
+#content-sidebar #content-metadata p.postCategories {
+	text-align: left;
+	display: block;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#content-sidebar #content-metadata .postTags {
+	text-align: left;
+	display: block;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+/* post stuff */
+
+/* widget stuff */
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}

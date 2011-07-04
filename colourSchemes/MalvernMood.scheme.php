@@ -1,0 +1,33 @@
+<?php
+
+define('LECTURN_PROPERTIES_BG', '#cccccc');
+define('LECTURN_PROPERTIES_FG', '#000000');
+define('LECTURN_PROPERTIES_LINK', '#820002');
+define('LECTURN_PROPERTIES_SEARCH', '#999999');
+define('LECTURN_BANNER_BG', '#000000');
+define('LECTURN_BANNER_FG', '#ffffff');
+define('LECTURN_BANNER_LINK_NORMAL', '#d4d1ae');
+define('LECTURN_BANNER_LINK_HOVER', '#d4d1ae');
+define('LECTURN_BANNER_TITLE', '#d4d1ae');
+define('LECTURN_BANNER_BOTTOM', '#a4a18e');
+define('LECTURN_PAGES_BG', '#444444');
+define('LECTURN_PAGES_FG', '#ffffff');
+define('LECTURN_PAGES_LINK_NORMAL', '#ffffff');
+define('LECTURN_PAGES_LINK_HOVER', '#d4d1ae');
+define('LECTURN_PAGES_BORDER', '#666666');
+define('LECTURN_SPOTLIGHT_BG', '#d4d1ae');
+define('LECTURN_SPOTLIGHT_FG', '#000000');
+define('LECTURN_SPOTLIGHT_LINK_NORMAL', '#5c2b2b');
+define('LECTURN_SPOTLIGHT_LINK_HOVER', '#b9121b');
+define('LECTURN_SPOTLIGHT_CAL_NORMAL', '#6c3b3b');
+define('LECTURN_SPOTLIGHT_CAL_HOVER', '#b9121b');
+define('LECTURN_SPOTLIGHT_BOTTOM', '#a4a183');
+define('LECTURN_CONTENT_BG', '#ffffff');
+define('LECTURN_CONTENT_FG', '#333333');
+define('LECTURN_CONTENT_LINK_NORMAL', '#775522');
+define('LECTURN_CONTENT_LINK_HOVER', '#ff020f');
+define('LECTURN_CONTENT_PRE_FG', '#000000');
+define('LECTURN_CONTENT_PRE_BG', '#dddddd');
+define('LECTURN_CONTENT_HEADER_BOTTOM', '#333333');
+define('LECTURN_CONTENT_BOTTOM', '#f4f1f3');
+define('LECTURN_CONTENT_SIDEBAR_BG', '#dddddd');
