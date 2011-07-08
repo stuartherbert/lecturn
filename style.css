@@ -190,7 +190,7 @@ body {
 
 #banner ul li {
         padding-right: 10px;
-        font-size: 14pt;
+        font-size: 16pt;
         display: inline;
 }
 
@@ -490,6 +490,9 @@ div.entry + div.entry {
         border-top: 1px solid #a4a18e;
         border-right: 1px solid #a4a18e;
         border-bottom: 1px solid #a4a183;
+        -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+        -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 #content-sidebar ul {

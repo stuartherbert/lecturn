@@ -226,7 +226,7 @@ body {
 
 #banner ul li {
         padding-right: 10px;
-        font-size: 14pt;
+        font-size: 16pt;
         display: inline;
 }
 
@@ -527,6 +527,9 @@ div.entry + div.entry {
         border-top: 1px solid <?= LECTURN_BANNER_BOTTOM ?>;
         border-right: 1px solid <?= LECTURN_BANNER_BOTTOM ?>;
         border-bottom: 1px solid <?= LECTURN_SPOTLIGHT_BOTTOM ?>;
+        -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+        -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 #content-sidebar ul {
