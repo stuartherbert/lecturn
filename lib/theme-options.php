@@ -175,6 +175,11 @@ function theme_options_do_page() {
                                                                 <input type="text" id="lecturn_theme_options[flickrUser]" class="regular-text" cols="50" rows="10" name="lecturn_theme_options[flickrUser]" value="<?php echo esc_attr_e( $options['flickrUser'] ); ?>"/>
                                                         </td>
                                                 </tr>
+                                                <tr valign="top"><th scope="row"><label for="lecturn_theme_options[googleUser]"><?php _e('Google Plus Profile URL', 'lecturn'); ?></label></th>
+                                                        <td>
+                                                                <input type="text" id="lecturn_theme_options[googleUser]" class="regular-text" cols="50" rows="10" name="lecturn_theme_options[googleUser]" value="<?php echo esc_attr_e( $options['googleUser'] ); ?>"/>
+                                                        </td>
+                                                </tr>
                                                 <tr valign="top"><th scope="row"><label for="lecturn_theme_options[facebookUser]"><?php _e('Facebook Account', 'lecturn'); ?></label></th>
                                                         <td>
                                                                 <input type="text" id="lecturn_theme_options[facebookUser]" class="regular-text" cols="50" rows="10" name="lecturn_theme_options[facebookUser]" value="<?php echo esc_attr_e( $options['facebookUser'] ); ?>"/>

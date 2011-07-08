@@ -39,18 +39,19 @@ wp_head();
 </div>
 <div id="banner">
   <div class="container_16">
-    <div class="grid_11 logo">
+    <div class="grid_8 logo">
       <a href="<?php bloginfo('url'); ?>"><h1><?php bloginfo('name');?></h1></a>
       <p><?php bloginfo('description'); ?>
     </div>
-    <div class="grid_5 subscribe">
+    <div class="grid_8 subscribe">
       <ul class="hoz">
         <li><a href="<?php bloginfo('rss2_url');?>">Follow:</a>&nbsp;
-          <a href="<?php bloginfo('rss2_url');?>"><img class="rss" src="<?php bloginfo('template_directory');?>/images/subscribe/rss.png" width="32" height="32"></a>
-          <?php if (isset($options['twitterUser'])) {?><a href="http://twitter.com/<?= $options['twitterUser']?>"><image class="rss" src="<?php bloginfo('template_directory');?>/images/subscribe/twitter.png" width="32" height="32"></a><?php }?>
-          <?php if (isset($options['flickrUser'])) {?><a href="http://flickr.com/photos/<?= $options['flickrUser']?>"><image class="rss" src="<?php bloginfo('template_directory');?>/images/subscribe/flickr.png" widtd="32" height="32"></a><?php }?>
-          <?php if (isset($options['facebookUser'])) {?><a href="http://facebook.com/<?= $options['facebookUser']?>"><image class="rss" src="<?php bloginfo('template_directory');?>/images/subscribe/facebook.png" width="32" height="32"></a><?php }?>
-          <?php if (isset($options['linkedInUrl'])) {?><a href="<?= $options['linkedInUrl']?>"><image class="rss" src="<?php bloginfo('template_directory');?>/images/subscribe/linkedin.png" width="32" height="32"></a><?php }?>
+          <a href="<?php bloginfo('rss2_url');?>"><img class="rss" src="<?php bloginfo('template_directory');?>/images/subscribe/rss.png" width="48" height="48"></a>
+          <?php if (isset($options['twitterUser'])) {?><a href="http://twitter.com/<?= $options['twitterUser']?>"><image class="rss" src="<?php bloginfo('template_directory');?>/images/subscribe/twitter.png" width="48" height="48"></a><?php }?>
+          <?php if (isset($options['flickrUser'])) {?><a href="http://flickr.com/photos/<?= $options['flickrUser']?>"><image class="rss" src="<?php bloginfo('template_directory');?>/images/subscribe/flickr.png" widtd="48" height="48"></a><?php }?>
+          <?php if (isset($options['googleUser'])) {?><a href="<?= $options['googleUser']?>"><image class="rss" src="<?php bloginfo('template_directory');?>/images/subscribe/google.png" widtd="48" height="48"></a><?php }?>
+          <?php if (isset($options['facebookUser'])) {?><a href="http://facebook.com/<?= $options['facebookUser']?>"><image class="rss" src="<?php bloginfo('template_directory');?>/images/subscribe/facebook.png" width="48" height="48"></a><?php }?>
+          <?php if (isset($options['linkedInUrl'])) {?><a href="<?= $options['linkedInUrl']?>"><image class="rss" src="<?php bloginfo('template_directory');?>/images/subscribe/linkedin.png" width="48" height="48"></a><?php }?>
         </li>
       </ul>
     </div>
